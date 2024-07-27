@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "jessiejane:block/diamondblock",
+    "up": "jessiejane:block/diamondblock",
+    "north": "jessiejane:block/diamondblock",
+    "east": "jessiejane:block/diamondblock",
+    "south": "jessiejane:block/diamondblock",
+    "west": "jessiejane:block/diamondblock",
+    "particle": "jessiejane:block/diamondblock"
+  },
+  "render_type": "solid"
+}

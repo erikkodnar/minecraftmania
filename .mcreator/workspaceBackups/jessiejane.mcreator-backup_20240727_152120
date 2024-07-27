@@ -1,0 +1,396 @@
+{
+  "mod_elements": [
+    {
+      "name": "Pearl",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pearl",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jessiejane/models/item/pearl.json",
+          "src/main/java/net/mcreator/jessiejane/item/PearlItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PearlBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pearl_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jessiejane/worldgen/placed_feature/pearl_block.json",
+          "src/main/java/net/mcreator/jessiejane/block/PearlBlockBlock.java",
+          "src/main/resources/data/jessiejane/forge/biome_modifier/pearl_block_biome_modifier.json",
+          "src/main/resources/assets/jessiejane/blockstates/pearl_block.json",
+          "src/main/resources/data/jessiejane/worldgen/configured_feature/pearl_block.json",
+          "src/main/resources/data/jessiejane/loot_tables/blocks/pearl_block.json",
+          "src/main/resources/assets/jessiejane/models/item/pearl_block.json",
+          "src/main/resources/assets/jessiejane/models/block/pearl_block.json"
+        ]
+      }
+    },
+    {
+      "name": "Pearlingot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pearlingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jessiejane/item/PearlingotItem.java",
+          "src/main/resources/assets/jessiejane/models/item/pearlingot.json"
+        ]
+      }
+    },
+    {
+      "name": "Pearlrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pearlrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jessiejane/recipes/pearlrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FireExplosion",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_explosion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jessiejane/procedures/FireExplosionProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "TNTExplosion",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tnt_explosion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jessiejane/procedures/TNTExplosionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TNT",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tnt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jessiejane/block/TNTBlock.java",
+          "src/main/resources/assets/jessiejane/blockstates/tnt.json",
+          "src/main/resources/assets/jessiejane/models/item/tnt.json",
+          "src/main/resources/data/jessiejane/loot_tables/blocks/tnt.json",
+          "src/main/resources/assets/jessiejane/models/block/tnt.json"
+        ]
+      }
+    },
+    {
+      "name": "Theblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "theblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jessiejane/loot_tables/blocks/theblock.json",
+          "src/main/java/net/mcreator/jessiejane/block/TheblockBlock.java",
+          "src/main/resources/assets/jessiejane/models/block/theblock.json",
+          "src/main/resources/assets/jessiejane/models/item/theblock.json",
+          "src/main/resources/assets/jessiejane/blockstates/theblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Woodblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "woodblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jessiejane/loot_tables/blocks/woodblock.json",
+          "src/main/resources/assets/jessiejane/models/block/woodblock.json",
+          "src/main/java/net/mcreator/jessiejane/block/WoodblockBlock.java",
+          "src/main/resources/assets/jessiejane/models/item/woodblock.json",
+          "src/main/resources/assets/jessiejane/blockstates/woodblock.json"
+        ]
+      }
+    },
+    {
+      "name": "UnderTheSeaBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "under_the_sea_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jessiejane/loot_tables/blocks/under_the_sea_block.json",
+          "src/main/resources/assets/jessiejane/models/item/under_the_sea_block.json",
+          "src/main/resources/assets/jessiejane/models/block/under_the_sea_block.json",
+          "src/main/resources/assets/jessiejane/blockstates/under_the_sea_block.json",
+          "src/main/java/net/mcreator/jessiejane/block/UnderTheSeaBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Leefe",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leefe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jessiejane/blockstates/leefe.json",
+          "src/main/java/net/mcreator/jessiejane/block/LeefeBlock.java",
+          "src/main/resources/assets/jessiejane/models/item/leefe.json",
+          "src/main/resources/assets/jessiejane/models/block/leefe.json",
+          "src/main/resources/data/jessiejane/loot_tables/blocks/leefe.json"
+        ]
+      }
+    },
+    {
+      "name": "ColourfulBiome",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "colourful_biome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/jessiejane/worldgen/biome/colourful_biome.json",
+          "src/main/resources/data/jessiejane/worldgen/placed_feature/colourful_biome_tree.json",
+          "src/main/resources/data/jessiejane/worldgen/configured_feature/colourful_biome_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "Raintool",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raintool",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jessiejane/models/item/raintool.json",
+          "src/main/java/net/mcreator/jessiejane/item/RaintoolItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Tool",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tool",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jessiejane/models/item/tool.json",
+          "src/main/java/net/mcreator/jessiejane/item/ToolItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Redtool",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redtool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/jessiejane/item/RedtoolItem.java",
+          "src/main/resources/assets/jessiejane/models/item/redtool.json"
+        ]
+      }
+    },
+    {
+      "name": "Treetool",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "treetool",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jessiejane/models/item/treetool.json",
+          "src/main/java/net/mcreator/jessiejane/item/TreetoolItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Water",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jessiejane/models/item/water_bucket.json",
+          "src/main/java/net/mcreator/jessiejane/fluid/WaterFluid.java",
+          "src/main/resources/assets/jessiejane/blockstates/water.json",
+          "src/main/resources/assets/jessiejane/models/block/water.json",
+          "src/main/java/net/mcreator/jessiejane/block/WaterBlock.java",
+          "src/main/java/net/mcreator/jessiejane/fluid/types/WaterFluidType.java",
+          "src/main/java/net/mcreator/jessiejane/item/WaterItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Pick",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/jessiejane/models/item/pick.json",
+          "src/main/java/net/mcreator/jessiejane/item/PickItem.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BIOMES:minecraft:has_structure/stronghold": [
+      "~CUSTOM:ColourfulBiome"
+    ],
+    "BIOMES:minecraft:has_structure/ocean_monument": [
+      "~CUSTOM:ColourfulBiome"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fortress": [
+      "~CUSTOM:ColourfulBiome"
+    ],
+    "BIOMES:minecraft:has_structure/pillager_outpost": [
+      "~CUSTOM:ColourfulBiome"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:Water"
+    ],
+    "BIOMES:minecraft:has_structure/jungle_temple": [
+      "~CUSTOM:ColourfulBiome"
+    ],
+    "BIOMES:minecraft:has_structure/igloo": [
+      "~CUSTOM:ColourfulBiome"
+    ],
+    "BIOMES:minecraft:has_structure/buried_treasure": [
+      "~CUSTOM:ColourfulBiome"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:Pick",
+      "~CUSTOM:Treetool",
+      "~CUSTOM:Redtool",
+      "~CUSTOM:Raintool"
+    ],
+    "BIOMES:minecraft:has_structure/village_desert": [
+      "~CUSTOM:ColourfulBiome"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft": [
+      "~CUSTOM:ColourfulBiome"
+    ],
+    "BIOMES:minecraft:has_structure/desert_pyramid": [
+      "~CUSTOM:ColourfulBiome"
+    ],
+    "BIOMES:minecraft:has_structure/woodland_mansion": [
+      "~CUSTOM:ColourfulBiome"
+    ],
+    "BIOMES:minecraft:has_structure/end_city": [
+      "~CUSTOM:ColourfulBiome"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck_beached": [
+      "~CUSTOM:ColourfulBiome"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:PearlBlock"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fossil": [
+      "~CUSTOM:ColourfulBiome"
+    ],
+    "BIOMES:minecraft:has_structure/bastion_remnant": [
+      "~CUSTOM:ColourfulBiome"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck": [
+      "~CUSTOM:ColourfulBiome"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_standard": [
+      "~CUSTOM:ColourfulBiome"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:Tool"
+    ],
+    "BIOMES:minecraft:has_structure/swamp_hut": [
+      "~CUSTOM:ColourfulBiome"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.jessiejane.leefe": "Leefe",
+      "item.jessiejane.tool": "Tool",
+      "item.jessiejane.pearl": "Pearl",
+      "block.jessiejane.pearl_block": "Pearl Block",
+      "biome.jessiejane.colourful_biome": "colourfulbiome",
+      "item.jessiejane.raintool": "Raintool",
+      "item.jessiejane.treetool": "Treetool",
+      "block.jessiejane.theblock": "Theblock",
+      "fluid.jessiejane.water": "Water",
+      "item.jessiejane.pick": "Pick",
+      "item.jessiejane.pearlingot": "Pearlingot",
+      "block.jessiejane.under_the_sea_block": "Under The Sea Block",
+      "block.jessiejane.water": "Water",
+      "item.jessiejane.redtool": "Redtool",
+      "item.jessiejane.water_bucket": "Water Bucket",
+      "block.jessiejane.tnt": "TNT",
+      "block.jessiejane.woodblock": "Woodblock"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "jessiejane",
+    "modName": "jessie-jane",
+    "version": "1.0.0",
+    "author": "Ninja15, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.jessiejane"
+  },
+  "mcreatorVersion": 202400229712
+}

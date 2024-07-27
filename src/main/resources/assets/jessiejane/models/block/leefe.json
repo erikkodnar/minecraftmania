@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "jessiejane:block/rainboeleaftexture",
+    "up": "jessiejane:block/rainboeleaftexture",
+    "north": "jessiejane:block/rainboeleaftexture",
+    "east": "jessiejane:block/rainboeleaftexture",
+    "south": "jessiejane:block/rainboeleaftexture",
+    "west": "jessiejane:block/rainboeleaftexture",
+    "particle": "jessiejane:block/rainboeleaftexture"
+  },
+  "render_type": "solid"
+}

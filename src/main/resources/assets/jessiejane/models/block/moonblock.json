@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "jessiejane:block/moon",
+    "up": "jessiejane:block/moon",
+    "north": "jessiejane:block/moon",
+    "east": "jessiejane:block/moon",
+    "south": "jessiejane:block/moon",
+    "west": "jessiejane:block/moon",
+    "particle": "jessiejane:block/moon"
+  },
+  "render_type": "solid"
+}

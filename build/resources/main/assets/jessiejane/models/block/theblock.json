@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "jessiejane:block/ramebo",
+    "up": "jessiejane:block/ramebo",
+    "north": "jessiejane:block/ramebo",
+    "east": "jessiejane:block/ramebo",
+    "south": "jessiejane:block/ramebo",
+    "west": "jessiejane:block/ramebo",
+    "particle": "jessiejane:block/ramebo"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "jessiejane:block/supercolourfultnt",
+    "up": "jessiejane:block/supercolourfultnt",
+    "north": "jessiejane:block/supercolourfultnt",
+    "east": "jessiejane:block/supercolourfultnt",
+    "south": "jessiejane:block/supercolourfultnt",
+    "west": "jessiejane:block/supercolourfultnt",
+    "particle": "jessiejane:block/supercolourfultnt"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "jessiejane:block/wood",
+    "up": "jessiejane:block/wood",
+    "north": "jessiejane:block/wood",
+    "east": "jessiejane:block/wood",
+    "south": "jessiejane:block/wood",
+    "west": "jessiejane:block/wood",
+    "particle": "jessiejane:block/wood"
+  },
+  "render_type": "solid"
+}
